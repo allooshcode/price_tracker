@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git remote add origin https://github.com/Leonuch/flex.git
+// git push -u origin main
+
 void main() {
   runApp(const MyApp());
 }
@@ -34,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+      _counter--;
     });
   }
 
