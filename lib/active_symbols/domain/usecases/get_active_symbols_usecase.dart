@@ -7,7 +7,7 @@ import 'package:price_tracker/core/usecase/usecase.dart';
 class GetActiveSymbolUsecase extends UseCase<List<ActivSymbol>, NoParam> {
   GetActiveSymbolUsecase({required this.activeSymbolRepository});
 
-  final ActiveSymbolRepository activeSymbolRepository;
+  final ActiveSymbolRepositorybase activeSymbolRepository;
 
   @override
   Future<Either<Failure, List<ActivSymbol>>> call(NoParam param) async {
