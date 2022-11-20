@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart"
+        },
+
+        {
+            "name": "Dart: Run all Tests",
+            "request": "launch",
+            "type": "dart",
+            "program": "./test/"
+        },
+
+        {
             "name": "price_tracker",
             "request": "launch",
             "type": "dart"

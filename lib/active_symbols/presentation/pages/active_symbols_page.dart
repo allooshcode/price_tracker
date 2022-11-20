@@ -13,7 +13,7 @@ class ActiveSymbolsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
         create: (BuildContext context) =>
-            SymbolBloc(getActiveSymbolUsecase: sl())..add(SymbolsEvents()),
+            SymbolBloc(active: sl())..add(SymbolsEvents()),
         child: BlocBuilder<SymbolBloc, SymbolsStates>(
             buildWhen: (previosState, currentState) =>
                 previosState != currentState,

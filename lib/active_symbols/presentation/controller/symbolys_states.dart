@@ -13,5 +13,5 @@ class SymbolsStates extends Equatable {
       this.activeSymbols = const []});
 
   @override
-  List<Object?> get props => [activeSymbols, sybbolState];
+  List<Object?> get props => [activeSymbols, sybbolState, errorMsg];
 }
